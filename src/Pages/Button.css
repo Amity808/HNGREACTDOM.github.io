@@ -1,0 +1,38 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.container-small{
+    background-color: #dddedf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#profile__img{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+.containe-anchor a{
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    border-radius: 5px;
+    background-color: #c2cbd4;
+    /* padding-left: 20px; */
+    padding: 24px 32px 24px 32px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#social-media{
+    width: 24px;
+    height: 24px;
+}

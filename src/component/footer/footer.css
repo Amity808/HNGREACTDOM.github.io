@@ -1,0 +1,20 @@
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    /* padding: 30px 15px 30px 15px; */
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media (max-width: 650px){
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        align-items: flex-start;
+    }
+}
