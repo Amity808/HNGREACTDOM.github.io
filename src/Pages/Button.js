@@ -17,7 +17,7 @@ function Button(props) {
         <a href='https://books.zuri.team/python-for-beginners?ref_id=Amity' id='book__python'>Python Book</a>
         <a href='https://background.zuri.team' id='pitch'>Background Check for Coders</a>
         <a href='https://books.zuri.team/design-rules' id='book__design'>Design Books</a>
-        <a href="contact">Contact Me</a>
+
         <Link to="/contact">Contact Me</Link> 
  
         </div>
