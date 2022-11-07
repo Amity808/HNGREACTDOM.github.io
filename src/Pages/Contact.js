@@ -12,12 +12,12 @@ function Contact() {
                 <div className='name'>
                   <span>
                   <label for="fname">First name <br />
-                <input type="text" name="first_name" id="fname" placeholder="Enter your first name"/>
+                <input type="text" name="first_name" id="first_name" placeholder="Enter your first name"/>
                 </label>
                   </span>
                   <span className='lname-padd'>
-                  <label for="fname" id='lastName'>Last name <br />
-                <input type="text" name="last_name" id="lname" placeholder="Enter your last name"/>
+                  <label for="fname" id='last_name'>Last name <br />
+                <input type="text" name="lastname" id="lname" placeholder="Enter your last name"/>
                 </label>
                   </span>
                 </div>
