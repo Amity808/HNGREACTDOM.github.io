@@ -1,5 +1,6 @@
 import React from 'react'
 import './Button.css';
+import { Link } from "react-router-dom";
 import Footer from '../component/footer/footer'
 
 function Button(props) {
@@ -16,8 +17,9 @@ function Button(props) {
         <a href='https://books.zuri.team/python-for-beginners?ref_id=Amity' id='book__python'>Python Book</a>
         <a href='https://background.zuri.team' id='pitch'>Background Check for Coders</a>
         <a href='https://books.zuri.team/design-rules' id='book__design'>Design Books</a>
-        <a href="/contact">Contact Me</a>
-        {/* <Link to="/contact">Contact Me</Link> */}
+        <a href="contact">Contact Me</a>
+        <Link to="/contact">Contact Me</Link> 
+ 
         </div>
         <div>
           <img src="./images/slack.png" alt="zuri" id='social-media'/>
